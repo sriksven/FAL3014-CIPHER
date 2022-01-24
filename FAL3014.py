@@ -123,7 +123,7 @@ def originalText(cipher_text, key):  #reverse of FAL3014 CIPHER
 
 
 if __name__ == "__main__":   #program RUNNER
-    string = input(" ENTER WITHOUT SPACES IN UPPERCASE,FOR SPACE ADD LETTER :'S' (or) REMOVE EXTRA 'S' FROM THE FINAL OUTPUT \n")
+    string = input(" ENTER IN UPPERCASE,FOR SPACE ADD LETTER 'S' (or) REMOVE EXTRA 'S' FROM THE FINAL OUTPUT \n")
     
     keyword = "FALCON"
     k = generateKey(string, keyword)
